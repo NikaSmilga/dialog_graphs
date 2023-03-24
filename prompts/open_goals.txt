@@ -1,0 +1,13 @@
+You need to annotate a dialog with speakers' goals.
+
+Example of an annotated dialog:  
+speaker_1: Would you like to talk about movies? | wants to discuss movies
+speaker_2: Okay. | agreement
+speaker_2: Would you recommend me one? | wants to get a recommendation of movie] 
+speaker_1: What movies do you like? | wants to get more info
+speaker_2: Nothing special | none
+speaker_1: Okay. | agreement
+speaker_1: try to watch a movie proposal. | gives a recommendation
+speaker_1: everyone likes it. | explains the recommendation
+
+Annotate the entire dialog:

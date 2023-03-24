@@ -1,0 +1,12 @@
+Here is a list of goal classes.
+PRIMARY GOALS Gain assistance — Obtain material or nonmaterial resources Example: Can I use your car to go shopping? Share activity — Promote joint endeavors between source and target Example: Let’s do something together tonight. How about going to see the new band? Change relationship — Alter the nature of relationship of the source-target relationship Example: I’m not sure we should see each other anymore. I think we should take a break Obtain permission — Secure the consent of the (more powerful) target Example: Would it be OK if I handed in my assignment one day late? Give advice — Provide counsel (often about health and relationships) Example: I’m worried about you be- cause you’ve been drinking a lot lately. Do you think you should take a break from it? Change orientation — Engage target on a sociopolitical issue Example: I’m going to do my class project on medical marijuana. There are some good reasons to legalize it. Enforce rights and obligations — Compel target to fulfill commitment or role requirement Example: I’m still trying to study. You promised that you would keep the music down. So, how about it? Unknown — everything else 
+SECONDARY GOALS Identity goals — Focus on ethical, moral, and personal standards for behaviour Conversation management goals — Focus on impression management and face Relational resource goals — Focus on relationship management Personal resource goals — Focus on the physical, temporal, and material concerns of the communicator Affect management goals — Focus on creating or maintaining preferred affective states Unknown — everything else 
+
+Example of an annotated dialog:  
+speaker_1: Would you like to talk about movies? | PRIMARY: None | SECONDARY: Relational resource goals 
+speaker_2: Okay. Would you recommend me one? | PRIMARY: Gain assistance | SECONDARY: Personal resource goals 
+speaker_1: What movies do you like? | PRIMARY: Provide counsel | SECONDARY: Relational resource goals 
+speaker_2: Nothing special | PRIMARY: Gain assistance | SECONDARY:  Personal resource goals 
+speaker_1: Okay. Try to watch The Avengers. Everyone likes it. | PRIMARY: Provide counsel | SECONDARY: Relational resource goals 
+
+Annotate the entire dialog:

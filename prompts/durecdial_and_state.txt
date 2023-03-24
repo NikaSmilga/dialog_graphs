@@ -1,0 +1,20 @@
+You need to annotate a dialog with speakers' goals. Here is a list of goals that a user may pursue: greeting, Q&A about X, chitchat about X, ask about X, X recommendation, weather notification, and saying goodbye. X stands for an entity type, for example animals, music, movie, food, art, games, gossip, science, sport, travel, weather. All the other goals should be marked as other or Q&A about other or chitchat about other, ask about other, other recommendation.
+Also annotate the state of the goal according to the instruction:
+GOAL_DETECTED: the goal is first detected 
+GOAL_IN_PROGRESS: corresponds to all utterances that happen between the goal detection and the goal completion
+GOAL_ACHIEVED: corresponds to the last user utterance that indicates achieving the goal
+GOAL_NOT_ACHIEVED: corresponds to the situation when the goal was in process of completion (GOAL_IN_PROGRESS) in the previous utterances, but for some reason the goal is not achieved in the end
+
+Example of an annotated dialog:  
+speaker_1: Hello! What would you like to do? | goals: greeting, ask about other
+2: recommend me a movie | goals: movie recommendation (GOAL_DETECTED)
+1: what genres do you like? | goals: movie recommendation (GOAL_IN_PROGRESS) 
+2: comedy | goals: movie recommendation (GOAL_IN_PROGRESS)
+1: maybe you want to watch ‘Perfect strangers’? | goals: movie recommendation (GOAL_IN_PROGRESS) 
+2: no I hate it. | goals: movie recommendation (GOAL_IN_PROGRESS)
+1: then i would recommend you a very funny movie What we do in shadows! People love its dark sense of humour. | goals: movie recommendation (GOAL_IN_PROGRESS)
+2: okay I'll watch this one thanks. tell me something else. | goals: movie recommendation (GOAL_ACHIEVED), chat about other (GOAL_DETECTED)
+1: do you want another recommendation? Maybe books? | goals: chat about other (GOAL_IN_PROGRESS), book recommendation (GOAL_DETECTED)
+2: nah i dont like your recommendations | goals: book recommendation (GOAL_NOT_ACHIEVED)
+
+Annotate the entire dialog:
