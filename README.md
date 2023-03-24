@@ -1,0 +1,4 @@
+This is a repository with automatic discourse annotation of Daily Dialog dataset. Annotation was performed with the use of ChatGPT. Currently, `dd_annotation_results.tsv` contains 3 kinds of annotation:
+- open goals annotation with no set classes. ([Prompt](https://github.com/NikaSmilga/dialog_graphs/blob/main/prompts/open_goals.txt)
+- annotation according to ([Goals-Plans-Action](https://en.wikipedia.org/wiki/Goals,_plans,_action_theory)) theory. ([Prompt](https://github.com/NikaSmilga/dialog_graphs/blob/main/prompts/gpa_theory.txt)
+- annotation according to ([DuRecDial 2.0](https://github.com/liuzeming01/DuRecDial) annotation scheme. In this case, we also attempted to track and annotated goal states (with little success, though). ([Prompt](https://github.com/NikaSmilga/dialog_graphs/blob/main/prompts/durecdial_and_state.txt)
