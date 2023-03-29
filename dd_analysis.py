@@ -29,10 +29,13 @@ def build_table(data: pd.DataFrame) -> None:
 
 data_durec = pd.read_csv('dialog_data/processed/durec_fin.tsv', sep='\t')
 data_open = pd.read_csv('dialog_data/processed/open_fin.tsv', sep='\t')
+data_midas = pd.read_csv('dialog_data/processed/midas_fin.tsv', sep='\t')
 del data_durec['Unnamed: 0']
 del data_open['Unnamed: 0']
+del data_midas['Unnamed: 0']
 st.set_page_config(page_title="DD goals", layout="wide")
 st.title("Daily dialog goal analysis")
 
 build_table(data_durec)
 build_table(data_open)
+build_table(data_midas)
